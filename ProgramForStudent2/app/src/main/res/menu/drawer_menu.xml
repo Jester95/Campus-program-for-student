@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/home" android:title="Home" android:icon="@drawable/home"/>
+    <item android:id="@+id/my_day" android:title="My Day" android:icon="@drawable/my_day"/>
+    <item android:id="@+id/dining" android:title="Dining" android:icon="@drawable/dining"/>
+    <item android:id="@+id/mobile_id" android:title="Mobile ID" android:icon="@drawable/mobile_id"/>
+    <item android:id="@+id/bus" android:title="Shuttle Bus" android:icon="@drawable/shutter_bus"/>
+    <item android:id="@+id/map" android:title="Map" android:icon="@drawable/map"/>
+    <item android:id="@+id/login" android:title="Log Out" android:icon="@drawable/login"/>
+</menu>

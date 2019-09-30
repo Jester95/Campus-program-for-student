@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/swipe_menu"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context="com.example.vagiftdefrik.programforstudent2.Menu">
+
+    <!--все фрагменты будут помещены внуьри этого FrameLayout в MainAactivity-->
+    <FrameLayout
+        android:orientation="vertical"
+        android:id="@+id/flcontent"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </FrameLayout>
+    <android.support.design.widget.NavigationView
+        app:headerLayout="@layout/header_swipe"
+        android:id="@+id/navigationview"
+        android:layout_width="256dp"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        app:itemTextColor="@color/darkgray"
+        app:itemIconTint="@color/darkgray"
+        app:menu="@menu/drawer_menu"
+        android:layout_gravity="start" />
+
+
+</android.support.constraint.ConstraintLayout>

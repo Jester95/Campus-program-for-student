@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Smart대학</string>
+    <string name="action_settings">Settings</string>
+    <string name="open">Open</string>>
+    <string name="close">Close</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_login">LoginActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="title_activity_dining">Dining</string>>
+</resources>
